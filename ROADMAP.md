@@ -6,8 +6,6 @@ What's next.
 
 ## Now
 
-**Tighten the 22-theme catalog.** A handful of themes (Plain, Specimen, Salon, Linen) bleed into each other on first read — same paper-band, similar accent footprint, similar display role. Audit each theme's three diversification axes (paper-band / display-style / accent-hue), pull overlapping pairs apart, and add 4–6 new themes in underserved corners (mid-band warm chromatic, dark-monochrome editorial, high-contrast print-poster, warm dark with handwritten accent). Each new theme ships with its own tokens block and stamp axis.
-
 **Nanobanana hook for image-heavy briefs.** Today the integration is recommend-only — Hallmark tells the user to go generate something and bring it back. Image-heavy briefs (e-commerce, travel, food, lookbook) route to typography-only and feel underserved. Add a first-class hook that writes a prompt, invokes the API, ingests the returned image, and wires it into the build (cache by prompt hash). Pair with a new image-led theme (working title *Plate*) tuned for full-bleed photographic compositions.
 
 ---
@@ -16,11 +14,11 @@ What's next.
 
 **Brand-first flow.** From a short product description, Hallmark generates a complete brand — palette, type system, voice, custom imagery via Nanobanana — and locks it into a `design.md`. The user then runs Hallmark normally and the whole site builds against that generated brand, page after page. Closes the gap for users who have a product idea but no brand yet.
 
-**Theme-aware motion tokens.** Per-theme `--dur-micro` / `--dur-short` / `--dur-long`, scaled by the table already in [`microinteractions.md`](references/microinteractions.md). Atelier should feel slower than Brutal; today they share durations. One pass through the tokens file.
+**Theme-aware motion tokens.** Per-theme `--dur-micro` / `--dur-short` / `--dur-long`, scaled by the table already in [`microinteractions.md`](skills/hallmark/references/microinteractions.md). Atelier should feel slower than Brutal; today they share durations. One pass through the tokens file.
 
 **`hallmark variant`** — produce three structurally distinct versions of the same brief side-by-side; the user picks one or asks for a fourth. The biggest cause of "AI feel" is users accepting the first output because they didn't know it could be different.
 
-**Structural cookbook.** [`structure.md`](references/structure.md) catalogues the *axes* of variety but doesn't show what a left-margin-headed, hairline-divided, no-image page actually looks like assembled. Twelve to twenty worked fingerprints with short HTML/CSS sketches — patterns are easier to reach for than principles.
+**Structural cookbook.** [`structure.md`](skills/hallmark/references/structure.md) catalogues the *axes* of variety but doesn't show what a left-margin-headed, hairline-divided, no-image page actually looks like assembled. Twelve to twenty worked fingerprints with short HTML/CSS sketches — patterns are easier to reach for than principles.
 
 **Tactile-rebellion reference.** Controlled imperfection — handmade textures, hand-drawn SVG paths, controlled-jitter typography (a 0.5° tilt on one mark is taste; on every word it's chaos). Where the field is going.
 
